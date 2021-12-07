@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		1C6A0809275E08A0005119A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A0808275E08A0005119A2 /* AppDelegate.swift */; };
 		1C6A080B275E08A0005119A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A080A275E08A0005119A2 /* SceneDelegate.swift */; };
-		1C6A080D275E08A0005119A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A080C275E08A0005119A2 /* ViewController.swift */; };
 		1C6A0810275E08A0005119A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6A080E275E08A0005119A2 /* Main.storyboard */; };
 		1C6A0812275E08A5005119A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6A0811275E08A5005119A2 /* Assets.xcassets */; };
 		1C6A0815275E08A5005119A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6A0813275E08A5005119A2 /* LaunchScreen.storyboard */; };
+		1C6A081D275E43F7005119A2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A081C275E43F7005119A2 /* HomeViewController.swift */; };
+		1C6A081F275E4709005119A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A081E275E4709005119A2 /* LoginViewController.swift */; };
+		1C6A0821275E4733005119A2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A0820275E4733005119A2 /* SignUpViewController.swift */; };
+		1C6A0823275E473E005119A2 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A0822275E473E005119A2 /* OTPViewController.swift */; };
+		1C6A0825275E47A9005119A2 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A0824275E47A9005119A2 /* OnBoardingViewController.swift */; };
+		1C6A0827275E47E9005119A2 /* CarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A0826275E47E9005119A2 /* CarsViewController.swift */; };
+		1C6A0829275E47F5005119A2 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A0828275E47F5005119A2 /* BookingViewController.swift */; };
+		1C6A082B275E4800005119A2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A082A275E4800005119A2 /* ProfileViewController.swift */; };
+		1C6A082D275E480B005119A2 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A082C275E480B005119A2 /* NotificationViewController.swift */; };
+		1C6FF2AF275F956D008EC865 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FF2AE275F956D008EC865 /* ForgotPasswordViewController.swift */; };
+		1C6FF2B1275F974F008EC865 /* FPasswordOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FF2B0275F974F008EC865 /* FPasswordOTPViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C6A0805275E08A0005119A2 /* Sample UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6A0808275E08A0005119A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C6A080A275E08A0005119A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1C6A080C275E08A0005119A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C6A080F275E08A0005119A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C6A0811275E08A5005119A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C6A0814275E08A5005119A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C6A0816275E08A5005119A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6A081C275E43F7005119A2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1C6A081E275E4709005119A2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1C6A0820275E4733005119A2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1C6A0822275E473E005119A2 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		1C6A0824275E47A9005119A2 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		1C6A0826275E47E9005119A2 /* CarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsViewController.swift; sourceTree = "<group>"; };
+		1C6A0828275E47F5005119A2 /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		1C6A082A275E4800005119A2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1C6A082C275E480B005119A2 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		1C6FF2AE275F956D008EC865 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		1C6FF2B0275F974F008EC865 /* FPasswordOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPasswordOTPViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +78,39 @@
 			children = (
 				1C6A0808275E08A0005119A2 /* AppDelegate.swift */,
 				1C6A080A275E08A0005119A2 /* SceneDelegate.swift */,
-				1C6A080C275E08A0005119A2 /* ViewController.swift */,
+				1C6A082F275E4874005119A2 /* AuthControllers */,
+				1C6A082E275E4847005119A2 /* TabControllers */,
 				1C6A080E275E08A0005119A2 /* Main.storyboard */,
 				1C6A0811275E08A5005119A2 /* Assets.xcassets */,
 				1C6A0813275E08A5005119A2 /* LaunchScreen.storyboard */,
 				1C6A0816275E08A5005119A2 /* Info.plist */,
 			);
 			path = "Sample UI";
+			sourceTree = "<group>";
+		};
+		1C6A082E275E4847005119A2 /* TabControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1C6A0826275E47E9005119A2 /* CarsViewController.swift */,
+				1C6A0828275E47F5005119A2 /* BookingViewController.swift */,
+				1C6A081C275E43F7005119A2 /* HomeViewController.swift */,
+				1C6A082A275E4800005119A2 /* ProfileViewController.swift */,
+				1C6A082C275E480B005119A2 /* NotificationViewController.swift */,
+			);
+			path = TabControllers;
+			sourceTree = "<group>";
+		};
+		1C6A082F275E4874005119A2 /* AuthControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1C6A081E275E4709005119A2 /* LoginViewController.swift */,
+				1C6A0820275E4733005119A2 /* SignUpViewController.swift */,
+				1C6A0822275E473E005119A2 /* OTPViewController.swift */,
+				1C6A0824275E47A9005119A2 /* OnBoardingViewController.swift */,
+				1C6FF2AE275F956D008EC865 /* ForgotPasswordViewController.swift */,
+				1C6FF2B0275F974F008EC865 /* FPasswordOTPViewController.swift */,
+			);
+			path = AuthControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +184,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C6A080D275E08A0005119A2 /* ViewController.swift in Sources */,
+				1C6A0821275E4733005119A2 /* SignUpViewController.swift in Sources */,
+				1C6A082D275E480B005119A2 /* NotificationViewController.swift in Sources */,
+				1C6A0827275E47E9005119A2 /* CarsViewController.swift in Sources */,
 				1C6A0809275E08A0005119A2 /* AppDelegate.swift in Sources */,
+				1C6A0825275E47A9005119A2 /* OnBoardingViewController.swift in Sources */,
+				1C6FF2B1275F974F008EC865 /* FPasswordOTPViewController.swift in Sources */,
 				1C6A080B275E08A0005119A2 /* SceneDelegate.swift in Sources */,
+				1C6A082B275E4800005119A2 /* ProfileViewController.swift in Sources */,
+				1C6A081F275E4709005119A2 /* LoginViewController.swift in Sources */,
+				1C6FF2AF275F956D008EC865 /* ForgotPasswordViewController.swift in Sources */,
+				1C6A0823275E473E005119A2 /* OTPViewController.swift in Sources */,
+				1C6A0829275E47F5005119A2 /* BookingViewController.swift in Sources */,
+				1C6A081D275E43F7005119A2 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
