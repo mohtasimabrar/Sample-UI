@@ -16,10 +16,7 @@ class OnBoardingViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
+        
         
         submit.layer.cornerRadius = 3
         submit.layer.borderWidth = 0.85
@@ -33,10 +30,13 @@ class OnBoardingViewController: UIViewController {
             string: "Re-Enter New Password",
             attributes: [NSAttributedString.Key.foregroundColor: UIColor.white]
         )
-        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         self.newPass.addBottomBorder()
         self.reNewPass.addBottomBorder()
     }
+    
 
     @IBAction func onSubmit(_ sender: UIButton) {
         self.navigationController?.popToRootViewController(animated: true)

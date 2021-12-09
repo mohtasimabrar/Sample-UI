@@ -17,13 +17,6 @@ class LoginViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         
-        
-        
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        
         loginBtn.layer.cornerRadius = 3
         loginBtn.layer.borderWidth = 0.85
         loginBtn.layer.borderColor = UIColor.white.cgColor
@@ -38,6 +31,9 @@ class LoginViewController: UIViewController {
             attributes: [NSAttributedString.Key.foregroundColor: UIColor.white]
         )
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         self.username.addBottomBorder()
         self.password.addBottomBorder()
     }
@@ -51,7 +47,7 @@ class LoginViewController: UIViewController {
 extension UITextField {
     func addBottomBorder(){
         let bottomLine = CALayer()
-        bottomLine.frame = CGRect(x: 0, y: self.frame.size.height, width: self.frame.size.width, height: 1)
+        bottomLine.frame = CGRect(x: 0, y: self.frame.size.height-1, width: self.frame.size.width, height: 1)
         bottomLine.backgroundColor = UIColor.white.cgColor
         borderStyle = .none
         layer.addSublayer(bottomLine)

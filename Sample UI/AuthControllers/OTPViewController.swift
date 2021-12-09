@@ -15,10 +15,7 @@ class OTPViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
+        
         
         submit.layer.cornerRadius = 3
         submit.layer.borderWidth = 0.85
@@ -28,9 +25,12 @@ class OTPViewController: UIViewController {
             string: "Enter OTP",
             attributes: [NSAttributedString.Key.foregroundColor: UIColor.white]
         )
-        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         self.otp.addBottomBorder()
     }
+    
     @IBAction func goToMain(_ sender: UIButton) {
         self.navigationController?.popToRootViewController(animated: true)
     }

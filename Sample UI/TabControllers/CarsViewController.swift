@@ -7,7 +7,9 @@
 
 import UIKit
 
-class CarsViewController: UIViewController {
+class CarsViewController: UICollectionViewController {
+    
+    let cars = ["Chevrolet Onix", "Chevrolet Spin", "Fiat Strada", "Ford Ka+", "Hyundai Tucson", "Tata Tiago", "Toyota Avanza", "Toyota Fortuner", "Toyota HiAce", "Toyota Hilux", "Toyota Innova", "Toyota Matrix"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,15 +18,24 @@ class CarsViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return cars.count
     }
-    */
-
+    
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Car", for: indexPath) as? CarCell else {
+            fatalError("Unable to load")
+        }
+        
+        let car = cars[indexPath.item]
+        
+        cell.name.text = car
+        cell.imageView.image = UIImage(named: car)
+        
+        cell.layer.cornerRadius = 8.0
+        
+        return cell
+    }
+    
 }

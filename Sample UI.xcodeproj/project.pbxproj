@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C1D86C62761E9E100E704E0 /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1D86C52761E9E100E704E0 /* CarCell.swift */; };
 		1C6A0809275E08A0005119A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A0808275E08A0005119A2 /* AppDelegate.swift */; };
 		1C6A080B275E08A0005119A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A080A275E08A0005119A2 /* SceneDelegate.swift */; };
 		1C6A0810275E08A0005119A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6A080E275E08A0005119A2 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C1D86C52761E9E100E704E0 /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
 		1C6A0805275E08A0005119A2 /* Sample UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6A0808275E08A0005119A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C6A080A275E08A0005119A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				1C6A081C275E43F7005119A2 /* HomeViewController.swift */,
 				1C6A082A275E4800005119A2 /* ProfileViewController.swift */,
 				1C6A082C275E480B005119A2 /* NotificationViewController.swift */,
+				1C1D86C52761E9E100E704E0 /* CarCell.swift */,
 			);
 			path = TabControllers;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				1C6FF2AF275F956D008EC865 /* ForgotPasswordViewController.swift in Sources */,
 				1C6A0823275E473E005119A2 /* OTPViewController.swift in Sources */,
 				1C6A0829275E47F5005119A2 /* BookingViewController.swift in Sources */,
+				1C1D86C62761E9E100E704E0 /* CarCell.swift in Sources */,
 				1C6A081D275E43F7005119A2 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -370,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

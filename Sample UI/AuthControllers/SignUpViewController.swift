@@ -19,10 +19,6 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
         
         signUp.layer.cornerRadius = 3
         signUp.layer.borderWidth = 0.85
@@ -50,12 +46,14 @@ class SignUpViewController: UIViewController {
             string: "Phone",
             attributes: [NSAttributedString.Key.foregroundColor: UIColor.white]
         )
-        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         self.name.addBottomBorder()
         self.email.addBottomBorder()
         self.phone.addBottomBorder()
         self.password.addBottomBorder()
         self.username.addBottomBorder()
     }
-
+    
 }
