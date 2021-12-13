@@ -18,8 +18,6 @@ class ProfileViewController: UIViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Sign Out", style: .plain, target: self, action: #selector(signOut))
         // Do any additional setup after loading the view.
         
-        
-        
     }
     
     override func viewDidAppear(_ animated: Bool) {

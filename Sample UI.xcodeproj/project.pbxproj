@@ -24,6 +24,11 @@
 		1C6A082D275E480B005119A2 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A082C275E480B005119A2 /* NotificationViewController.swift */; };
 		1C6FF2AF275F956D008EC865 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FF2AE275F956D008EC865 /* ForgotPasswordViewController.swift */; };
 		1C6FF2B1275F974F008EC865 /* FPasswordOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6FF2B0275F974F008EC865 /* FPasswordOTPViewController.swift */; };
+		1C7F725A27672F13009F2F30 /* TopDealViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F725927672F13009F2F30 /* TopDealViewCell.swift */; };
+		1C7F725C27675A42009F2F30 /* DestinationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F725B27675A42009F2F30 /* DestinationViewCell.swift */; };
+		1C7F725E27678D5C009F2F30 /* NotificationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F725D27678D5C009F2F30 /* NotificationViewCell.swift */; };
+		1CA98676276369670041435C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA98674276369670041435C /* TableViewCell.swift */; };
+		1CA98677276369670041435C /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA98675276369670041435C /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +51,11 @@
 		1C6A082C275E480B005119A2 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		1C6FF2AE275F956D008EC865 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		1C6FF2B0275F974F008EC865 /* FPasswordOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPasswordOTPViewController.swift; sourceTree = "<group>"; };
+		1C7F725927672F13009F2F30 /* TopDealViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopDealViewCell.swift; sourceTree = "<group>"; };
+		1C7F725B27675A42009F2F30 /* DestinationViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewCell.swift; sourceTree = "<group>"; };
+		1C7F725D27678D5C009F2F30 /* NotificationViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewCell.swift; sourceTree = "<group>"; };
+		1CA98674276369670041435C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1CA98675276369670041435C /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,8 @@
 				1C6A082F275E4874005119A2 /* AuthControllers */,
 				1C6A082E275E4847005119A2 /* TabControllers */,
 				1C6A080E275E08A0005119A2 /* Main.storyboard */,
+				1CA98674276369670041435C /* TableViewCell.swift */,
+				1CA98675276369670041435C /* TableViewCell.xib */,
 				1C6A0811275E08A5005119A2 /* Assets.xcassets */,
 				1C6A0813275E08A5005119A2 /* LaunchScreen.storyboard */,
 				1C6A0816275E08A5005119A2 /* Info.plist */,
@@ -99,6 +111,9 @@
 				1C6A082A275E4800005119A2 /* ProfileViewController.swift */,
 				1C6A082C275E480B005119A2 /* NotificationViewController.swift */,
 				1C1D86C52761E9E100E704E0 /* CarCell.swift */,
+				1C7F725927672F13009F2F30 /* TopDealViewCell.swift */,
+				1C7F725B27675A42009F2F30 /* DestinationViewCell.swift */,
+				1C7F725D27678D5C009F2F30 /* NotificationViewCell.swift */,
 			);
 			path = TabControllers;
 			sourceTree = "<group>";
@@ -175,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C6A0815275E08A5005119A2 /* LaunchScreen.storyboard in Resources */,
+				1CA98677276369670041435C /* TableViewCell.xib in Resources */,
 				1C6A0812275E08A5005119A2 /* Assets.xcassets in Resources */,
 				1C6A0810275E08A0005119A2 /* Main.storyboard in Resources */,
 			);
@@ -187,9 +203,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C7F725C27675A42009F2F30 /* DestinationViewCell.swift in Sources */,
+				1CA98676276369670041435C /* TableViewCell.swift in Sources */,
 				1C6A0821275E4733005119A2 /* SignUpViewController.swift in Sources */,
 				1C6A082D275E480B005119A2 /* NotificationViewController.swift in Sources */,
 				1C6A0827275E47E9005119A2 /* CarsViewController.swift in Sources */,
+				1C7F725A27672F13009F2F30 /* TopDealViewCell.swift in Sources */,
 				1C6A0809275E08A0005119A2 /* AppDelegate.swift in Sources */,
 				1C6A0825275E47A9005119A2 /* OnBoardingViewController.swift in Sources */,
 				1C6FF2B1275F974F008EC865 /* FPasswordOTPViewController.swift in Sources */,
@@ -201,6 +220,7 @@
 				1C6A0829275E47F5005119A2 /* BookingViewController.swift in Sources */,
 				1C1D86C62761E9E100E704E0 /* CarCell.swift in Sources */,
 				1C6A081D275E43F7005119A2 /* HomeViewController.swift in Sources */,
+				1C7F725E27678D5C009F2F30 /* NotificationViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
