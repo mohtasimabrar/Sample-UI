@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C0579BE2768E32800B7ECC8 /* ExpandableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0579BD2768E32800B7ECC8 /* ExpandableTableViewController.swift */; };
+		1C0579C02768E43400B7ECC8 /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0579BF2768E43400B7ECC8 /* ExpandableCell.swift */; };
+		1C0579C22768E44700B7ECC8 /* Expandable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0579C12768E44700B7ECC8 /* Expandable.swift */; };
 		1C1D86C62761E9E100E704E0 /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1D86C52761E9E100E704E0 /* CarCell.swift */; };
 		1C6A0809275E08A0005119A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A0808275E08A0005119A2 /* AppDelegate.swift */; };
 		1C6A080B275E08A0005119A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A080A275E08A0005119A2 /* SceneDelegate.swift */; };
@@ -32,6 +35,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C0579BD2768E32800B7ECC8 /* ExpandableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableTableViewController.swift; sourceTree = "<group>"; };
+		1C0579BF2768E43400B7ECC8 /* ExpandableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCell.swift; sourceTree = "<group>"; };
+		1C0579C12768E44700B7ECC8 /* Expandable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expandable.swift; sourceTree = "<group>"; };
 		1C1D86C52761E9E100E704E0 /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
 		1C6A0805275E08A0005119A2 /* Sample UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6A0808275E08A0005119A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +120,9 @@
 				1C7F725927672F13009F2F30 /* TopDealViewCell.swift */,
 				1C7F725B27675A42009F2F30 /* DestinationViewCell.swift */,
 				1C7F725D27678D5C009F2F30 /* NotificationViewCell.swift */,
+				1C0579BD2768E32800B7ECC8 /* ExpandableTableViewController.swift */,
+				1C0579BF2768E43400B7ECC8 /* ExpandableCell.swift */,
+				1C0579C12768E44700B7ECC8 /* Expandable.swift */,
 			);
 			path = TabControllers;
 			sourceTree = "<group>";
@@ -216,11 +225,14 @@
 				1C6A082B275E4800005119A2 /* ProfileViewController.swift in Sources */,
 				1C6A081F275E4709005119A2 /* LoginViewController.swift in Sources */,
 				1C6FF2AF275F956D008EC865 /* ForgotPasswordViewController.swift in Sources */,
+				1C0579BE2768E32800B7ECC8 /* ExpandableTableViewController.swift in Sources */,
 				1C6A0823275E473E005119A2 /* OTPViewController.swift in Sources */,
 				1C6A0829275E47F5005119A2 /* BookingViewController.swift in Sources */,
 				1C1D86C62761E9E100E704E0 /* CarCell.swift in Sources */,
+				1C0579C22768E44700B7ECC8 /* Expandable.swift in Sources */,
 				1C6A081D275E43F7005119A2 /* HomeViewController.swift in Sources */,
 				1C7F725E27678D5C009F2F30 /* NotificationViewCell.swift in Sources */,
+				1C0579C02768E43400B7ECC8 /* ExpandableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

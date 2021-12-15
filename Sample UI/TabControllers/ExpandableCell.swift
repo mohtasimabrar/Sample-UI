@@ -1,17 +1,16 @@
 //
-//  NotificationViewCell.swift
+//  ExpandableCell.swift
 //  Sample UI
 //
-//  Created by BS236 on 13/12/21.
+//  Created by BS236 on 14/12/21.
 //
 
 import UIKit
 
-class NotificationViewCell: UITableViewCell {
-    
-    @IBOutlet weak var bannerImg: UIImageView!
-    @IBOutlet weak var wholeView: UIView!
-    @IBOutlet weak var button: UIButton!
+class ExpandableCell: UITableViewCell {
+    @IBOutlet weak var picture: UIImageView!
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var btn: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,5 +22,5 @@ class NotificationViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+
 }

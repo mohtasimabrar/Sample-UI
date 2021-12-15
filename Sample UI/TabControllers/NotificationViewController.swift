@@ -7,23 +7,23 @@
 
 import UIKit
 
-class NotificationViewController: UITableViewController {
+class NotificationViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let notifications = ["Chittagong", "Sylhet", "Dhaka", "Barishal"]
+    let notifications = ["Offer 4", "Offer 2", "Offer 3", "Offer 1", "Offer 5"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
-        title = "Notifications"
+        title = "Offers"
         // Do any additional setup after loading the view.
     }
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return notifications.count
     }
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "NotificationCell", for: indexPath) as? NotificationViewCell else {
             fatalError("Unable to load")
         }
@@ -31,9 +31,17 @@ class NotificationViewController: UITableViewController {
         let notification = notifications[indexPath.row]
         
         cell.bannerImg.image = UIImage(named: notification)
-        cell.button.titleLabel!.text = notification
+        cell.button.setTitle("Claim Offer Today!", for: .normal)
+        cell.wholeView.layer.cornerRadius = 10
+        cell.wholeView.layer.masksToBounds = true
+        
+        let bgColorView = UIView()
+        bgColorView.backgroundColor = UIColor.clear
+        cell.selectedBackgroundView = bgColorView
+        cell.backgroundColor = UIColor.clear
         
         return cell
     }
+    
     
 }
